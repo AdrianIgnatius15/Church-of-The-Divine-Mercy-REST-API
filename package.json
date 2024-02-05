@@ -1,0 +1,48 @@
+{
+  "name": "mamlakha",
+  "version": "1.0.0",
+  "description": "A minimal turned enterprise-grade REST API where Yeshua's Kingdom can be reached throughout the world regardless of background and race. It's a Express.JS powered backend framework, organises prayer and bible study sessions, sermons collection, stream worship sessions, bible source and more.",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "development": "cross-env NODE_ENV=development && tsc && nodemon main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianIgnatius15/Mamlakha.git"
+  },
+  "keywords": [
+    "mamlakha"
+  ],
+  "author": "Adrian Joseph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrianIgnatius15/Mamlakha/issues"
+  },
+  "homepage": "https://github.com/AdrianIgnatius15/Mamlakha#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.10",
+    "axios": "^1.6.7",
+    "body-parser": "^1.20.2",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "module-alias": "^2.2.3",
+    "reflect-metadata": "^0.2.1",
+    "routing-controllers": "^0.10.4",
+    "sequelize-cli": "^6.6.2",
+    "sqlite3": "^5.1.7",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "typedi": "^0.10.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "nodemon": "^3.0.3",
+    "sequelize": "^6.36.0",
+    "sequelize-typescript": "^2.1.6"
+  }
+}
