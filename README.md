@@ -12,4 +12,4 @@ This project is developed using Express.JS framework with TypeScript as it's lan
 
 #### Project Information
 Owner of the project:
-["Adrian Joseph"]("adrianignatius15@hotmail.com")
+[Adrian Joseph]("adrianignatius15@hotmail.com")
